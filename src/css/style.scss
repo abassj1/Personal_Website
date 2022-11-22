@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=fallback');
+
+@tailwind base;
+@tailwind components;
+
+// Additional styles
+@import 'additional-styles/utility-patterns.scss';
+@import 'additional-styles/range-slider.scss';
+@import 'additional-styles/toggle-switch.scss';
+@import 'additional-styles/theme.scss';
+
+@tailwind utilities;
+
+// Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+// See Alpine.js: https://github.com/alpinejs/alpine#x-cloak
+[x-cloak] {
+    display: none;
+}
+
+// AOS styles
+$aos-distance: 10px;
+@import 'node_modules/aos/src/sass/aos.scss';
+
+.navbar_links 
+{
+    height: 100%;
+    position: relative;
+    color: white;
+}
+
+.navbar_links.active::after
+{
+    content: '';
+    position: absolute;
+    border-radius: 20%;
+    width: 80%;
+    transform: scaleX(0.3);
+    transform-origin: center;
+    height: 5px;
+    top: 90%;
+    left: 6px;
+    right: 0;
+    background-color: #0CB9FB;
+}
+
+.navbar_links::after
+{
+    content: '';
+    position: absolute;
+    border-radius: 20%;
+    width: 80%;
+    transform: scaleX(0);
+    height: 5px;
+    top: 90%;
+    left: 6px;
+    right: 0;
+    background-color: #0CB9FB;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar_links:hover:after
+{
+    transform: scaleX(0.3);
+    transform-origin: center;
+}
+
+@media (max-width: 425px) {
+    .card {
+        max-width: 22em;
+        height: 100%;
+    }
+}
+
+.stockImage 
+{
+    z-index: -1;
+
+}
+
+.imgCover {
+    z-index: 3;
+    opacity: 1;
+    backdrop-filter: blur(20px);
+    filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
