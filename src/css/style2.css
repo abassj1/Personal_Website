@@ -1,0 +1,489 @@
+/*-----------------------------------Profile Picture section-----------------------------------*/
+.Profile_container 
+{
+    display: flex;
+    position: relative;
+    height: 310px;
+    width: 310px;
+    border-radius: 100%;
+
+    /* background: #fff;
+    background: rgba(255, 255, 255, 0.01);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); */
+
+}
+
+.profile_border 
+{
+    height: 290px;
+    width: 290px;
+    background: transparent;
+    border-radius: 300px;
+    transition: border 1s;
+    position: relative;
+}
+
+.profile_border:hover 
+{
+    border: 5px solid #fff;
+}
+
+.card 
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background: #808080;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card0 
+{
+    background: url("../images/profile_image.jpg") center center;
+    background-size: 400px;
+    background-position: top center;
+}
+
+.card0:hover 
+{
+    background: url("../images/profile_image_copy.jpg") left center no-repeat;
+    background-size: 450px;
+    background-position: top left;
+    background-color: #1a1a1a;
+    background-blend-mode: luminosity;
+}
+
+.card h2
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: #ffef16;
+    margin: 120px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.icons 
+{
+    position: absolute;
+    fill: #ffef16;
+    color: #ffef16;
+    height: 130px;
+    top: 160px;
+    left: 100px;
+    width: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.indiv_icon
+{
+    filter: invert(93%) sepia(17%) saturate(4529%) hue-rotate(342deg) brightness(116%) contrast(105%);
+    max-width: 30px;
+    height: 70px;
+    opacity: 1;
+    -webkit-animation: out_profile_icons  0.3s;
+}
+
+.card0:hover h2 
+{
+    opacity: 1;
+}
+
+.card0:hover .icons_facebook
+{
+    opacity: 1; 
+}
+.card0:hover .icons_instagram
+{
+    opacity: 1;
+}
+.card0:hover .icons_twitter
+{
+    opacity: 1;
+}
+.card0:hover .icons_linkedin
+{
+    opacity: 1;
+}
+
+.icons_facebook{position: absolute; top: 80px; left: 20px;  opacity: 0;
+    transition: opacity 1s;}
+.icons_instagram{position: absolute; top: 160px; left: 30px;  opacity: 0;
+    transition: opacity 1s;}
+.icons_twitter{position: absolute; top: 210px; left: 90px;  opacity: 0;
+    transition: opacity 1s;}
+.icons_linkedin{position: absolute; top: 210px; left: 170px;  opacity: 0;
+    transition: opacity 1s;}
+
+.icons_facebook:hover
+{
+    -webkit-animation:  in_profile_icons  0.3s;
+    -webkit-animation-fill-mode: both;
+}
+
+.icons_instagram:hover
+{
+    -webkit-animation:  in_profile_icons  0.3s;
+    -webkit-animation-fill-mode: both;
+}
+
+.icons_twitter:hover
+{
+    -webkit-animation:  in_profile_icons  0.3s;
+    -webkit-animation-fill-mode: both;
+}
+
+.icons_linkedin:hover
+{
+    -webkit-animation: in_profile_icons 0.3s;
+    -webkit-animation-fill-mode: both;
+}
+
+@-webkit-keyframes in_profile_icons
+{
+    from  { transform: scale(1); 
+        filter: invert(0%) sepia(17%) saturate(4529%) hue-rotate(342deg) brightness(116%) contrast(105%);}
+    to    { transform: scale(1.045);
+        filter: invert(0%) sepia(17%) saturate(4529%) hue-rotate(342deg) brightness(1500%) contrast(105%);}
+
+    /* from {transform: scale(0); }
+    to   {transform: scale(1); border-radius: 10px;} */
+}
+
+/* This transition happens after the hover animation is complete */
+@-webkit-keyframes out_profile_icons 
+{
+    0%   { transform: scale(1.045);   
+        filter: invert(0%) sepia(17%) saturate(4529%) hue-rotate(342deg) brightness(1500%) contrast(105%);}
+    100% { transform: scale(1);
+        filter: invert(0%) sepia(17%) saturate(4529%) hue-rotate(342deg) brightness(116%) contrast(105%);}
+
+    /* 0%  {transform: scale(1);border-radius: 10px;}
+    100% { transform: scale(0);} */
+}
+
+@media (min-width: 576px) {
+.Profile_container
+{
+    left: 0;
+    height: 310px;
+    width: 310px;
+}
+
+    .profile_border
+    {
+        height: 290px;
+        width: 290px;
+    }
+
+    .card
+    {
+        height: 300px;
+        width: 300px;
+    }
+
+    .card0
+    {
+        background-size: 400px;    
+        background-position: top center;
+    }
+
+    .card0:hover
+    { 
+        background-size: 450px; 
+    }
+
+    .card h2
+    {
+        margin-top: 30px;
+        font-size: 22px;
+    }
+
+    .icons_facebook
+    {
+        left: 20px;
+        top: 80px;
+    }
+
+    .icons_instagram
+    {
+        left: 30px;
+        top: 160px;
+    }
+
+    .icons_twitter
+    {
+        left: 90px;
+        top: 210px;
+    }
+
+    .icons_linkedin
+    {
+        left: 170px;
+        top: 210px;
+    }
+}
+
+@media (min-width: 768px) {
+.Profile_container
+{
+    left: 0;
+    height: 310px;
+    width: 310px;
+}
+
+    .profile_border
+    {
+        height: 290px;
+        width: 290px;
+    }
+
+    .card
+    {
+        height: 300px;
+        width: 300px;
+    }
+
+    .card0
+    {
+        background-size: 400px;    
+        background-position: top center;
+    }
+
+    .card0:hover
+    { 
+        background-size: 450px; 
+    }
+
+    .card h2
+    {
+        margin-top: 30px;
+        font-size: 22px;
+    }
+
+    .icons_facebook
+    {
+        left: 20px;
+        top: 80px;
+    }
+
+    .icons_instagram
+    {
+        left: 30px;
+        top: 160px;
+    }
+
+    .icons_twitter
+    {
+        left: 90px;
+        top: 210px;
+    }
+
+    .icons_linkedin
+    {
+        left: 170px;
+        top: 210px;
+    }
+}
+
+@media (min-width: 992px) {
+.Profile_container
+{
+    left: 0;
+    height: 410px;
+    width: 410px;
+}
+
+    .profile_border
+    {
+        height: 390px;
+        width: 390px;
+    }
+
+    .card
+    {
+        height: 400px;
+        width: 400px;
+    }
+
+    .card0
+    {
+        background-size: 500px;    
+        background-position: top center;
+    }
+
+    .card0:hover
+    { 
+        background-size: 550px; 
+    }
+
+    .card h2
+    {
+        margin-top: 40px;
+        font-size: 22px;
+    }
+
+    .icons_facebook
+    {
+        left: 40px;
+        top: 80px;
+    }
+
+    .icons_instagram
+    {
+        left: 20px;
+        top: 160px;
+    }
+
+    .icons_twitter
+    {
+        left: 60px;
+        top: 240px;
+    }
+
+    .icons_linkedin
+    {
+        left: 130px;
+        top: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+.Profile_container
+{
+    left: 0;
+    height: 510px;
+    width: 510px;
+}
+
+    .profile_border
+    {
+        height: 490px;
+        width: 490px;
+    }
+
+    .card
+    {
+        height: 500px;
+        width: 500px;
+    }
+
+    .card0
+    {
+        background-size: 600px;    
+        background-position: top center;
+    }
+
+    .card0:hover
+    { 
+        background-size: 700px; 
+    }
+
+    .card h2
+    {
+        margin-top: 50px;
+        font-size: 26px;
+    }
+
+    .icons_facebook
+    {
+        left: 40px;
+        top: 120px;
+    }
+
+    .icons_instagram
+    {
+        left: 20px;
+        top: 220px;
+    }
+
+    .icons_twitter
+    {
+        left: 60px;
+        top: 330px;
+    }
+
+    .icons_linkedin
+    {
+        left: 150px;
+        top: 400px;
+    }
+
+}
+
+/* 
+@media (min-width: 1400px) {
+.Profile_container
+{
+    left: 0;
+    height: 610px;
+    width: 610px;
+}
+
+    .profile_border
+    {
+        height: 590px;
+        width: 590px;
+    }
+
+    .card
+    {
+        height: 600px;
+        width: 600px;
+    }
+
+    .card0
+    {
+        background-size: 700px;    
+        background-position: top center;
+    }
+
+    .card0:hover
+    { 
+        background-size: 800px; 
+    }
+
+    .card h2
+    {
+        margin-top: 60px;
+        font-size: 32px;
+    }
+
+    .icons_facebook
+    {
+        left: 40px;
+        top: 160px;
+    }
+
+    .icons_instagram
+    {
+        left: 10px;
+        top: 260px;
+    }
+
+    .icons_twitter
+    {
+        left: 40px;
+        top: 360px;
+    }
+
+    .icons_linkedin
+    {
+        left: 120px;
+        top: 460px;
+    }
+} */

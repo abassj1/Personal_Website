@@ -71,13 +71,6 @@ $aos-distance: 10px;
     transform-origin: center;
 }
 
-@media (max-width: 425px) {
-    .card {
-        max-width: 22em;
-        height: 100%;
-    }
-}
-
 .stockImage 
 {
     z-index: -1;
@@ -91,3 +84,5 @@ $aos-distance: 10px;
     filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 }
+
+
