@@ -20,11 +20,16 @@ return (
             <div class="bg-text">
                 <div className="profession">Fullstack Developer</div>
                 <div className="name">Abass Jammal</div>
+
+                <button className="contactBtn"> Button
+                <span></span>
+                </button>
+
             </div>
 
             {/* <!-- Masthead Avatar Image--> */}
             <div class="Profile_container absolute left-[50%] right-[50%]">
-                <div class="card card0">
+                <div class="pcard pcard0">
                     <div class="profile_border">
 
                         <h2 class="hover_name">Abass Jammal</h2>

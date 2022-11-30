@@ -134,3 +134,122 @@ $aos-distance: 10px;
     color: yellow;
 
 }
+
+
+.card1 {
+    z-index:10;
+    position: absolute; 
+    left: -40%; 
+    right: 0; 
+    top: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
+    transition: all 0.2s ease-out 0.05s;
+}
+.card2 {
+    z-index:9;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 40%;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
+    transition: all 0.2s ease-out 0.05s;
+}
+.card3 {
+    z-index:8;
+    position: absolute; 
+    left: 40%; 
+    right: 0; 
+    top: 80%;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
+    transition: all 0.2s ease-out 0.05s;
+}
+
+.start .card {
+    opacity:0.85;
+    background-image: url('../images/stock.jpg');
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    // border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card a {
+    margin:0em -2em;
+    display:block;
+    width:120%;
+    max-width:24em;
+    position:relative;
+    line-height:1em;
+}
+
+.card a:after {
+    content: "";
+    position:absolute;
+    left:0;
+    right:0;
+    top:0px;
+    bottom:1px;
+    border-bottom:1px solid rgba(0,0,0,0.35);
+    border-top:1px solid rgba(0,0,0,0.15);
+}
+
+.card p {
+    line-height:1.75em;
+    margin-bottom:0;
+    margin-top: 2em;
+}
+
+.card-container:hover,
+.card-container.hover {
+    .card {
+        opacity:0.95;
+        transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        &:hover,
+        &.hover {
+            opacity:1;   
+            z-index:11;
+                transform: scale(1);
+        -webkit-transform: scale(1);
+        }
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .card {
+        max-width: 22em;
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 28em;
+    }
+    .card1 {
+        left: 0;
+    }
+    .card2 {
+        top: 40%;
+    }
+    .card3 {
+        top: 80%;
+        left: 0;
+    }
+}

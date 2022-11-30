@@ -8,7 +8,7 @@ module.exports = {
       colors: {     
         blitblue: 
         {
-          100: '#0D182E',
+          100: '#27232A',
           200: '#15294A',
           300: '#ffef16',
           400: '#ffef16',

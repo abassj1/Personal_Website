@@ -4,6 +4,7 @@ import Header from '../partials/Header';
 import Footer from '../partials/Footer';
 
 import HeroHome from '../partials/HeroHome';
+import Portfolio from '../partials/Portfolio';
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       {/*  Page content */}
       <main className="flex-grow">
       <HeroHome />
+      <Portfolio />
 
         {/*  Page sections */}
       

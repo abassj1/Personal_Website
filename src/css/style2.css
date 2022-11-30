@@ -34,7 +34,7 @@
     border: 5px solid #fff;
 }
 
-.card 
+.pcard 
 {
     height: 300px;
     width: 300px;
@@ -50,14 +50,14 @@
     position: relative;
 }
 
-.card0 
+.pcard0 
 {
     background: url("../images/profile_image.jpg") center center;
     background-size: 400px;
     background-position: top center;
 }
 
-.card0:hover 
+.pcard0:hover 
 {
     background: url("../images/profile_image_copy.jpg") left center no-repeat;
     background-size: 450px;
@@ -66,7 +66,7 @@
     background-blend-mode: luminosity;
 }
 
-.card h2
+.pcard h2
 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
@@ -102,24 +102,24 @@
     -webkit-animation: out_profile_icons  0.3s;
 }
 
-.card0:hover h2 
+.pcard0:hover h2 
 {
     opacity: 1;
 }
 
-.card0:hover .icons_facebook
+.pcard0:hover .icons_facebook
 {
     opacity: 1; 
 }
-.card0:hover .icons_instagram
+.pcard0:hover .icons_instagram
 {
     opacity: 1;
 }
-.card0:hover .icons_twitter
+.pcard0:hover .icons_twitter
 {
     opacity: 1;
 }
-.card0:hover .icons_linkedin
+.pcard0:hover .icons_linkedin
 {
     opacity: 1;
 }
@@ -193,24 +193,24 @@
         width: 290px;
     }
 
-    .card
+    .pcard
     {
         height: 300px;
         width: 300px;
     }
 
-    .card0
+    .pcard0
     {
         background-size: 400px;    
         background-position: top center;
     }
 
-    .card0:hover
+    .pcard0:hover
     { 
         background-size: 450px; 
     }
 
-    .card h2
+    .pcard h2
     {
         margin-top: 30px;
         font-size: 22px;
@@ -254,24 +254,24 @@
         width: 290px;
     }
 
-    .card
+    .pcard
     {
         height: 300px;
         width: 300px;
     }
 
-    .card0
+    .pcard0
     {
         background-size: 400px;    
         background-position: top center;
     }
 
-    .card0:hover
+    .pcard0:hover
     { 
         background-size: 450px; 
     }
 
-    .card h2
+    .pcard h2
     {
         margin-top: 30px;
         font-size: 22px;
@@ -315,24 +315,24 @@
         width: 390px;
     }
 
-    .card
+    .pcard
     {
         height: 400px;
         width: 400px;
     }
 
-    .card0
+    .pcard0
     {
         background-size: 500px;    
         background-position: top center;
     }
 
-    .card0:hover
+    .pcard0:hover
     { 
         background-size: 550px; 
     }
 
-    .card h2
+    .pcard h2
     {
         margin-top: 40px;
         font-size: 22px;
@@ -376,24 +376,24 @@
         width: 490px;
     }
 
-    .card
+    .pcard
     {
         height: 500px;
         width: 500px;
     }
 
-    .card0
+    .pcard0
     {
         background-size: 600px;    
         background-position: top center;
     }
 
-    .card0:hover
+    .pcard0:hover
     { 
         background-size: 700px; 
     }
 
-    .card h2
+    .pcard h2
     {
         margin-top: 50px;
         font-size: 26px;
@@ -425,7 +425,7 @@
 
 }
 
-/* 
+
 @media (min-width: 1400px) {
 .Profile_container
 {
@@ -439,13 +439,13 @@
         width: 590px;
     }
 
-    .card
+    .pcard
     {
         height: 600px;
         width: 600px;
     }
 
-    .card0
+    .pcard0
     {
         background-size: 700px;    
         background-position: top center;
@@ -485,4 +485,64 @@
         left: 120px;
         top: 460px;
     }
-} */
+}
+
+
+.contactBtn {
+    border: none;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: yellow;
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+    border-radius: 2em;
+    left: 100px;
+   }
+   
+   .contactBtn span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border-radius: 2em;
+    border: 2px solid yellow;
+   }
+   
+   .contactBtn span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+   }
+   
+   .contactBtn:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: yellow;
+    border-radius: 2em;
+
+   }
+   
+   .contactBtn:hover {
+    color: black;
+   }
+   
+   .contactBtn:active span::before {
+    background: #ffef16;
+   }
