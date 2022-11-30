@@ -27,6 +27,14 @@
 $aos-distance: 10px;
 @import 'node_modules/aos/src/sass/aos.scss';
 
+.logo 
+{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: yellow;
+}
+
 .navbar_links 
 {
     height: 100%;
@@ -46,7 +54,7 @@ $aos-distance: 10px;
     top: 90%;
     left: 6px;
     right: 0;
-    background-color: #0CB9FB;
+    background-color: #ffef16;
 }
 
 .navbar_links::after
@@ -60,7 +68,7 @@ $aos-distance: 10px;
     top: 90%;
     left: 6px;
     right: 0;
-    background-color: #0CB9FB;
+    background-color: #ffef16;
     transform-origin: center;
     transition: transform 0.25s ease-out;
 }
@@ -85,4 +93,44 @@ $aos-distance: 10px;
     -webkit-backdrop-filter: blur(20px);
 }
 
+.sectionImage
+{
+    background-image: url('../images/stock.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+    backdrop-filter: blur(20px);
+    filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
 
+/* Position text in the middle of the page/image */
+.bg-text {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-100%, -0%);
+    z-index: 2;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+
+.profession 
+{
+    font-size: 2em;
+    padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name
+{
+    font-size: 3em;
+    padding-left: 10%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+
+}

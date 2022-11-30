@@ -20,7 +20,7 @@ function Header() {
           <div className="flex items-center justify-around h-16">
             <div className="flex-shrink-0">
               <Link to="/">
-                <img className="h-8 w-8" src={logo} alt="Workflow" />
+                <div className="logo">AJ.</div>
               </Link>
             </div>
             <div className="flex items-center mr-48">

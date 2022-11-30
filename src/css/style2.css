@@ -2,10 +2,14 @@
 .Profile_container 
 {
     display: flex;
-    position: relative;
     height: 310px;
     width: 310px;
     border-radius: 100%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-0%, -100%);
+    z-index: 2;
+
 
     /* background: #fff;
     background: rgba(255, 255, 255, 0.01);
@@ -179,7 +183,6 @@
 @media (min-width: 576px) {
 .Profile_container
 {
-    left: 0;
     height: 310px;
     width: 310px;
 }
@@ -241,7 +244,6 @@
 @media (min-width: 768px) {
 .Profile_container
 {
-    left: 0;
     height: 310px;
     width: 310px;
 }
@@ -303,7 +305,6 @@
 @media (min-width: 992px) {
 .Profile_container
 {
-    left: 0;
     height: 410px;
     width: 410px;
 }
@@ -365,7 +366,6 @@
 @media (min-width: 1200px) {
 .Profile_container
 {
-    left: 0;
     height: 510px;
     width: 510px;
 }
@@ -429,7 +429,6 @@
 @media (min-width: 1400px) {
 .Profile_container
 {
-    left: 0;
     height: 610px;
     width: 610px;
 }
