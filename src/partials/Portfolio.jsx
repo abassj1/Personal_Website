@@ -2,16 +2,12 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
-
-
-
-
 function Portfolio() {
 
 return (
     <section className="relative h-[480px] sm:h-auto md:h-auto lg:h-[1000px]">
         
-        <div className="relative h-full text-center">
+        {/* <div className="relative h-full text-center">
         
             <div className="relative font-bold right-[25%] top-24 text-[3em] text-blitblue-500">Portfolio</div>
 
@@ -52,7 +48,7 @@ return (
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
     </section>
     

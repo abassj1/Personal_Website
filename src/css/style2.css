@@ -5,9 +5,9 @@
     height: 310px;
     width: 310px;
     border-radius: 100%;
-    top: 70%;
-    left: 50%;
-    transform: translate(-0%, -100%);
+    /* top: 70%;
+    left: 50%; */
+    /* transform: translate(-0%, -100%); */
     z-index: 2;
 
 
@@ -71,7 +71,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
     color: #ffef16;
-    margin: 120px;
+    margin: 50px;
     opacity: 0;
     transition: opacity 1s;
 }
@@ -130,7 +130,7 @@
     transition: opacity 1s;}
 .icons_twitter{position: absolute; top: 210px; left: 90px;  opacity: 0;
     transition: opacity 1s;}
-.icons_linkedin{position: absolute; top: 210px; left: 170px;  opacity: 0;
+.icons_linkedin{position: absolute; top: 200px; left: 170px;  opacity: 0;
     transition: opacity 1s;}
 
 .icons_facebook:hover
@@ -180,7 +180,7 @@
     100% { transform: scale(0);} */
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
 .Profile_container
 {
     height: 310px;
@@ -485,12 +485,11 @@
         left: 120px;
         top: 460px;
     }
-}
+} */
 
 
 .contactBtn {
     border: none;
-    display: block;
     position: relative;
     padding: 0.7em 2.4em;
     font-size: 18px;
@@ -503,10 +502,9 @@
     font-family: inherit;
     font-weight: 500;
     border-radius: 2em;
-    left: 100px;
-   }
-   
-   .contactBtn span {
+}
+
+.contactBtn span {
     position: absolute;
     left: 0;
     top: 0;
@@ -516,9 +514,9 @@
     z-index: -1;
     border-radius: 2em;
     border: 2px solid yellow;
-   }
-   
-   .contactBtn span::before {
+}
+
+.contactBtn span::before {
     content: "";
     display: block;
     position: absolute;
@@ -529,20 +527,20 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(-60deg);
     transition: all 0.3s;
-   }
-   
-   .contactBtn:hover span::before {
+}
+
+.contactBtn:hover span::before {
     transform: translate(-50%, -50%) rotate(-90deg);
     width: 100%;
     background: yellow;
     border-radius: 2em;
 
-   }
-   
-   .contactBtn:hover {
+}
+
+.contactBtn:hover {
     color: black;
-   }
-   
-   .contactBtn:active span::before {
+}
+
+.contactBtn:active span::before {
     background: #ffef16;
-   }
+}

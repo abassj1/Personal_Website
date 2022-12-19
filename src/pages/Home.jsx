@@ -11,7 +11,7 @@ function Home() {
   return (
 
     
-      <div className="flex flex-col min-h-screen overflow-hidden bg-color-100">
+      <div className="flex flex-col min-h-screen overflow-hidden bg-color-100 bg">
 
 
       {/*  Site header */}
