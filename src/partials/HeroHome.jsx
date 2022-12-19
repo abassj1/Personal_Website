@@ -13,10 +13,10 @@ import linkedin from '../images/svg/linkedin-in-brands.svg';
 function HeroHome() {
 
 return (
-    <section className="relative h-[480px] sm:h-auto md:h-auto lg:h-auto">
+    <section className="relative h-auto sm:h-auto md:h-auto lg:h-auto">
 
-            <div class="container mx-auto max-w-3xl py-32">
-                <div className="flex flex-col lg:flex-row items-center text-center">
+            <div class="container mx-auto max-w-[1000px] py-32">
+                <div className="flex flex-col max-w-[1000px] lg:flex-row items-center text-center">
 
                     {/* <!-- Masthead Avatar Image--> */}
                     <div class="Profile_container relative overflow-hidden">
@@ -64,9 +64,9 @@ return (
                     </div> 
 
                     <div class="mt-4 mr-4 items-center w-96">
-                        <h1 class="text-3xl lg:text-4xl text-white leading-tight font-bold tracking-tight">Abass Jammal</h1>
-                        <h2 class="text-[#ffef16] mt-2 font-light text-xl">Fullstack Engineer</h2>
-                        <button className="contactBtn mt-4 mx-auto leading-tight tracking-tight"> Contact me
+                        <h1 class="text-3xl lg:text-4xl lg:mr-6 text-white leading-tight font-bold tracking-tight">Abass Jammal</h1>
+                        <h2 class="text-[#ffef16] mt-2 lg:mr-16 font-light text-3xl">Fullstack Engineer</h2>
+                        <button className="contactBtn mt-4 mx-auto lg:mr-28 leading-tight tracking-tight"> Contact me
                             <span></span>
                         </button>                        
                     </div>

@@ -180,6 +180,133 @@
     100% { transform: scale(0);} */
 }
 
+
+@media (min-width: 992px) {
+    .Profile_container
+    {
+        height: 410px;
+        width: 410px;
+    }
+    
+        .profile_border
+        {
+            height: 390px;
+            width: 390px;
+        }
+    
+        .pcard
+        {
+            height: 400px;
+            width: 400px;
+        }
+    
+        .pcard0
+        {
+            background-size: 500px;    
+            background-position: top center;
+        }
+    
+        .pcard0:hover
+        { 
+            background-size: 550px; 
+        }
+    
+        .pcard h2
+        {
+            margin-top: 40px;
+            font-size: 22px;
+        }
+    
+        .icons_facebook
+        {
+            left: 40px;
+            top: 80px;
+        }
+    
+        .icons_instagram
+        {
+            left: 20px;
+            top: 160px;
+        }
+    
+        .icons_twitter
+        {
+            left: 60px;
+            top: 240px;
+        }
+    
+        .icons_linkedin
+        {
+            left: 130px;
+            top: 300px;
+        }
+    }
+
+
+@media (min-width: 1024px) {
+    .Profile_container
+    {
+        height: 510px;
+        width: 510px;
+    }
+    
+        .profile_border
+        {
+            height: 490px;
+            width: 490px;
+        }
+    
+        .pcard
+        {
+            height: 500px;
+            width: 500px;
+        }
+    
+        .pcard0
+        {
+            background-size: 600px;    
+            background-position: top center;
+        }
+    
+        .pcard0:hover
+        { 
+            background-size: 700px; 
+        }
+    
+        .pcard h2
+        {
+            margin-top: 50px;
+            font-size: 26px;
+        }
+    
+        .icons_facebook
+        {
+            left: 40px;
+            top: 120px;
+        }
+    
+        .icons_instagram
+        {
+            left: 20px;
+            top: 220px;
+        }
+    
+        .icons_twitter
+        {
+            left: 60px;
+            top: 330px;
+        }
+    
+        .icons_linkedin
+        {
+            left: 150px;
+            top: 400px;
+        }
+    }
+
+
+
+
 /* @media (min-width: 576px) {
 .Profile_container
 {
@@ -302,66 +429,6 @@
     }
 }
 
-@media (min-width: 992px) {
-.Profile_container
-{
-    height: 410px;
-    width: 410px;
-}
-
-    .profile_border
-    {
-        height: 390px;
-        width: 390px;
-    }
-
-    .pcard
-    {
-        height: 400px;
-        width: 400px;
-    }
-
-    .pcard0
-    {
-        background-size: 500px;    
-        background-position: top center;
-    }
-
-    .pcard0:hover
-    { 
-        background-size: 550px; 
-    }
-
-    .pcard h2
-    {
-        margin-top: 40px;
-        font-size: 22px;
-    }
-
-    .icons_facebook
-    {
-        left: 40px;
-        top: 80px;
-    }
-
-    .icons_instagram
-    {
-        left: 20px;
-        top: 160px;
-    }
-
-    .icons_twitter
-    {
-        left: 60px;
-        top: 240px;
-    }
-
-    .icons_linkedin
-    {
-        left: 130px;
-        top: 300px;
-    }
-}
 
 @media (min-width: 1200px) {
 .Profile_container
