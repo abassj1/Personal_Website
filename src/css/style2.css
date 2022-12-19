@@ -1,3 +1,10 @@
+
+body
+{
+    background-image: url('../images/stockBackground.png');
+    background-size: cover;
+}
+
 /*-----------------------------------Profile Picture section-----------------------------------*/
 .Profile_container 
 {
@@ -558,7 +565,7 @@
 .contactBtn {
     border: none;
     position: relative;
-    padding: 0.7em 2.4em;
+    padding: 0.55em 1.5em;
     font-size: 18px;
     background: transparent;
     cursor: pointer;
@@ -580,7 +587,7 @@
     background: transparent;
     z-index: -1;
     border-radius: 2em;
-    border: 2px solid yellow;
+    border: 3px solid yellow;
 }
 
 .contactBtn span::before {

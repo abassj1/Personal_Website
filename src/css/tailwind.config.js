@@ -29,6 +29,11 @@ module.exports = {
           200: '#F4F4F4'
         },
       },
+      backgroundImage: {
+        'whatsapp_auto': "url('../images/whatsApp_auto.png')",
+        'blitcoreWebpage': "url('../images/blitcoreWebpage.png')",
+        'stockBackground': "url('../images/stockBackground.png')"
+      },
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',
         sm: '0 1px 2px 0 rgba(0, 0, 0, 0.16)',

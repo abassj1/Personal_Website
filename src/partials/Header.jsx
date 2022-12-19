@@ -15,12 +15,12 @@ function Header() {
 
   return (
     <div>
-      <nav className="bg-color-100">
+      <nav className="bg-gradient-to-b from-color-100 to-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-around h-16">
             <div className="flex-shrink-0">
               <Link to="/">
-                <div className="logo">AJ.</div>
+                <div className="logo">Abass.</div>
               </Link>
             </div>
             <div className="flex items-center mr-48">

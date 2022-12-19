@@ -30,7 +30,7 @@ $aos-distance: 10px;
 .logo 
 {
     font-size: 2em;
-    font-weight: bold;
+    font-weight: 1em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: yellow;
 }
@@ -177,12 +177,11 @@ $aos-distance: 10px;
 }
 
 .start .card {
-    opacity:0.85;
-    background-image: url('../images/stock.jpg');
+    opacity:1;
     transform: rotateZ(0deg);
     -webkit-transform: rotateZ(0deg);
     -moz-transform: rotateZ(0deg);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     // border: 1px solid rgba(255, 255, 255, 0.3);
@@ -211,7 +210,6 @@ $aos-distance: 10px;
 .card p {
     line-height:1.75em;
     margin-bottom:0;
-    margin-top: 2em;
 }
 
 .card-container:hover,
@@ -224,8 +222,8 @@ $aos-distance: 10px;
         &.hover {
             opacity:1;   
             z-index:11;
-                transform: scale(1);
-        -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transform: scale(1);
         }
     }
     
