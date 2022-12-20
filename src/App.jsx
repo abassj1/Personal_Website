@@ -13,8 +13,6 @@ import AOS from 'aos';
 
 import Home from './pages/Home';
 import Blog from './pages/Blog';
-import CSD from './pages/CSD';
-import Consult from './pages/Consultation';
 import Contact from './pages/Contact';
 
 function App() {
@@ -41,8 +39,6 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="blog" element={<Blog />} />
-        <Route exact path="customsoftwaredev" element={<CSD />} />
-        <Route exact path="/book" element={<Consult/>} />
         <Route exact path="contact" element={<Contact />} />
       </Routes>
     </>

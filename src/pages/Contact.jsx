@@ -13,7 +13,6 @@ function Contact() {
       {/*  Page content */}
       <main className="flex-grow mt-20">
         {/* Page sections */}
-        {/* <ContactView /> */}
 
 
       </main>
