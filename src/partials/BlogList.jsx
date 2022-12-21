@@ -14,115 +14,115 @@ return (
 
                 <div class="post-container mt-8 grid grid-cols-3 grid-rows-1 gap-16">
 
-                    <div id="post1" class="post text-center h-72 items-center p-6 bg-whatsapp_auto bg-cover rounded-large drop-shadow-2xl post1">
+                    <div id="post1" class="post text-center h-72 items-center p-6 rounded-large drop-shadow-2xl post1">
                         <div class="flex mx-auto mt-2 items-center w-full">                    
                             <h1 className="text-lg mx-auto font-extrabold text-blitblue-500">WhatsApp Automation</h1>
                         </div>  
 
-                        <div class="flex mx-auto mt-2 items-center w-4/5 h-3/5">                    
+                        <div class="flex mx-auto mt-3 items-center w-4/5 h-3/5">                    
                             <p className="text-white text-center">
                             We are a Consummate Custom Software Development company delivering
                             splendid. Lorem upsum Lorem Upsum dil ssupum
                             </p>
                         </div>
 
-                        <div class="flex mx-auto mt-2 items-center w-full">                    
-                            <button className="contactBtn mx-auto flex leading-tight tracking-tight"> View
+                        <div class="flex mx-auto mt-3 items-center w-full">                    
+                            <button className="viewBtn mt-3 mx-auto flex leading-tight tracking-tight"> View
                                 <span></span>
                             </button>  
                         </div>
                     </div>
 
-                    <div id="post1" class="post text-center h-72 items-center p-6 bg-whatsapp_auto bg-cover rounded-large drop-shadow-2xl post1">
+                    <div id="post1" class="post text-center h-72 items-center p-6 rounded-large drop-shadow-2xl post1">
                         <div class="flex mx-auto mt-2 items-center w-full">                    
                             <h1 className="text-lg mx-auto font-extrabold text-blitblue-500">WhatsApp Automation</h1>
                         </div>  
 
-                        <div class="flex mx-auto mt-2 items-center w-4/5 h-3/5">                    
+                        <div class="flex mx-auto mt-3 items-center w-4/5 h-3/5">                    
                             <p className="text-white text-center">
                             We are a Consummate Custom Software Development company delivering
                             splendid. Lorem upsum Lorem Upsum dil ssupum
                             </p>
                         </div>
 
-                        <div class="flex mx-auto mt-2 items-center w-full">                    
-                            <button className="contactBtn mx-auto flex leading-tight tracking-tight"> View
+                        <div class="flex mx-auto mt-3 items-center w-full">                    
+                            <button className="viewBtn mt-3 mx-auto flex leading-tight tracking-tight"> View
                                 <span></span>
                             </button>  
                         </div>
                     </div>
 
-                    <div id="post1" class="post text-center h-72 items-center p-6 bg-whatsapp_auto bg-cover rounded-large drop-shadow-2xl post1">
+                    <div id="post1" class="post text-center h-72 items-center p-6 rounded-large drop-shadow-2xl post1">
                         <div class="flex mx-auto mt-2 items-center w-full">                    
                             <h1 className="text-lg mx-auto font-extrabold text-blitblue-500">WhatsApp Automation</h1>
                         </div>  
 
-                        <div class="flex mx-auto mt-2 items-center w-4/5 h-3/5">                    
+                        <div class="flex mx-auto mt-3 items-center w-4/5 h-3/5">                    
                             <p className="text-white text-center">
                             We are a Consummate Custom Software Development company delivering
                             splendid. Lorem upsum Lorem Upsum dil ssupum
                             </p>
                         </div>
 
-                        <div class="flex mx-auto mt-2 items-center w-full">                    
-                            <button className="contactBtn mx-auto flex leading-tight tracking-tight"> View
+                        <div class="flex mx-auto mt-3 items-center w-full">                    
+                            <button className="viewBtn mt-3 mx-auto flex leading-tight tracking-tight"> View
                                 <span></span>
                             </button>  
                         </div>
                     </div>
 
-                    <div id="post1" class="post text-center h-72 items-center p-6 bg-whatsapp_auto bg-cover rounded-large drop-shadow-2xl post1">
+                    <div id="post1" class="post text-center h-72 items-center p-6 rounded-large drop-shadow-2xl post1">
                         <div class="flex mx-auto mt-2 items-center w-full">                    
                             <h1 className="text-lg mx-auto font-extrabold text-blitblue-500">WhatsApp Automation</h1>
                         </div>  
 
-                        <div class="flex mx-auto mt-2 items-center w-4/5 h-3/5">                    
+                        <div class="flex mx-auto mt-3 items-center w-4/5 h-3/5">                    
                             <p className="text-white text-center">
                             We are a Consummate Custom Software Development company delivering
                             splendid. Lorem upsum Lorem Upsum dil ssupum
                             </p>
                         </div>
 
-                        <div class="flex mx-auto mt-2 items-center w-full">                    
-                            <button className="contactBtn mx-auto flex leading-tight tracking-tight"> View
+                        <div class="flex mx-auto mt-3 items-center w-full">                    
+                            <button className="viewBtn mt-3 mx-auto flex leading-tight tracking-tight"> View
                                 <span></span>
                             </button>  
                         </div>
                     </div>
 
-                    <div id="post1" class="post text-center h-72 items-center p-6 bg-whatsapp_auto bg-cover rounded-large drop-shadow-2xl post1">
+                    <div id="post1" class="post text-center h-72 items-center p-6 rounded-large drop-shadow-2xl post1">
                         <div class="flex mx-auto mt-2 items-center w-full">                    
                             <h1 className="text-lg mx-auto font-extrabold text-blitblue-500">WhatsApp Automation</h1>
                         </div>  
 
-                        <div class="flex mx-auto mt-2 items-center w-4/5 h-3/5">                    
+                        <div class="flex mx-auto mt-3 items-center w-4/5 h-3/5">                    
                             <p className="text-white text-center">
                             We are a Consummate Custom Software Development company delivering
                             splendid. Lorem upsum Lorem Upsum dil ssupum
                             </p>
                         </div>
 
-                        <div class="flex mx-auto mt-2 items-center w-full">                    
-                            <button className="contactBtn mx-auto flex leading-tight tracking-tight"> View
+                        <div class="flex mx-auto mt-3 items-center w-full">                    
+                            <button className="viewBtn mt-3 mx-auto flex leading-tight tracking-tight"> View
                                 <span></span>
                             </button>  
                         </div>
                     </div>
 
-                    <div id="post1" class="post text-center h-72 items-center p-6 bg-whatsapp_auto bg-cover rounded-large drop-shadow-2xl post1">
+                    <div id="post1" class="post text-center h-72 items-center p-6 rounded-large drop-shadow-2xl post1">
                         <div class="flex mx-auto mt-2 items-center w-full">                    
                             <h1 className="text-lg mx-auto font-extrabold text-blitblue-500">WhatsApp Automation</h1>
                         </div>  
 
-                        <div class="flex mx-auto mt-2 items-center w-4/5 h-3/5">                    
+                        <div class="flex mx-auto mt-3 items-center w-4/5 h-3/5">                    
                             <p className="text-white text-center">
                             We are a Consummate Custom Software Development company delivering
                             splendid. Lorem upsum Lorem Upsum dil ssupum
                             </p>
                         </div>
 
-                        <div class="flex mx-auto mt-2 items-center w-full">                    
-                            <button className="contactBtn mx-auto flex leading-tight tracking-tight"> View
+                        <div class="flex mx-auto mt-3 items-center w-full">                    
+                            <button className="viewBtn mt-3 mx-auto flex leading-tight tracking-tight"> View
                                 <span></span>
                             </button>  
                         </div>

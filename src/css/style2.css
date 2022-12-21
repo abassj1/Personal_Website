@@ -618,3 +618,60 @@ body
 .contactBtn:active span::before {
     background: #ffef16;
 }
+
+
+.viewBtn {
+    border: none;
+    position: relative;
+    padding: 0.35em 1.5em;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: yellow;
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+    border-radius: 2em;
+}
+
+.viewBtn span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border-radius: 2em;
+    border: 3px solid yellow;
+}
+
+.viewBtn span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+}
+
+.viewBtn:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: yellow;
+    border-radius: 2em;
+
+}
+
+.viewBtn:hover {
+    color: black;
+}
+
+.viewBtn:active span::before {
+    background: #ffef16;
+}

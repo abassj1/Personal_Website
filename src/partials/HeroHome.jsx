@@ -66,7 +66,7 @@ return (
                     <div class="mt-4 mr-4 items-center w-96">
                         <h1 class="text-3xl lg:text-4xl lg:mr-6 text-white leading-tight font-bold tracking-tight">Abass Jammal</h1>
                         <h2 class="text-[#ffef16] mt-2 lg:mr-16 font-light text-3xl">Fullstack Engineer</h2>
-                        <button className="contactBtn mt-4 mx-auto lg:mr-28 leading-tight tracking-tight"> Contact me
+                        <button className="contactBtn mt-4 mx-auto lg:mr-40 leading-tight tracking-tight"> Contact me
                             <span></span>
                         </button>                        
                     </div>

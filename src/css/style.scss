@@ -79,31 +79,6 @@ $aos-distance: 10px;
     transform-origin: center;
 }
 
-.stockImage 
-{
-    z-index: -1;
-
-}
-
-.imgCover {
-    z-index: 3;
-    opacity: 1;
-    backdrop-filter: blur(20px);
-    filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-}
-
-.sectionImage
-{
-    background-image: url('../images/stock.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    opacity: 1;
-    backdrop-filter: blur(20px);
-    filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-}
 
 /* Position text in the middle of the page/image */
 .bg-text {
@@ -341,15 +316,13 @@ $aos-distance: 10px;
     transition: all 0.2s ease-out 0.05s;
 }
 
-.start.post {
-    opacity:1;
-    transform: rotateZ(0deg);
-    -webkit-transform: rotateZ(0deg);
-    -moz-transform: rotateZ(0deg);
+.post {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    // border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-right-width: 0px;
+    border-bottom-width: 0px;
 }
 
 .post a {
