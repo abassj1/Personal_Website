@@ -7,13 +7,13 @@ function Portfolio() {
 return (
     <section className="relative h-auto sm:h-auto md:h-auto lg:h-auto">
 
-        <div class="container flex flex-col mx-auto max-w-[1000px] h-[1000px]">
+        <div class="container flex flex-col mx-auto max-w-[1000px] h-[1300px]">
 
             <div className="flex mx-auto w-full h-64 max-w-[1000px] max-h-[100px] items-center text-center">
                 <div className="mx-auto lg:mx-4 font-bold text-4xl text-blitblue-500">Portfolio</div>
             </div>
 
-            <div className="flex mx-auto mt-8 w-full h-3/5 max-w-[1000px] max-h-[1000px] ">
+            <div className="flex mx-auto mt-8 w-full h-full max-w-[1000px]">
                 <div id="stack1" class="card-container relative h-1/2 w-full start">
                     <div id="card1" class="card h-72 items-center p-6 bg-whatsapp_auto bg-cover rounded-large drop-shadow-2xl card1">
                         <div class="flex mt-2 mr-4 items-center w-96">                    
@@ -73,6 +73,86 @@ return (
                                 <span></span>
                             </button>  
                         </div>
+                    </div>
+
+                    <div id="card4" class="card h-72 items-center p-6 bg-blitcoreWebpage bg-cover rounded-large drop-shadow-2xl card4">
+                        <div class="flex mt-2 mr-4 items-center w-96">                    
+                            <h1 className="text-lg font-extrabold text-blitblue-500">Blitcore</h1>
+                        </div>  
+
+                        <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
+                            <p className="text-white text-left">
+                            We are a Consummate Custom Software Development company delivering
+                            splendid business IT Solutions and related services to customers
+                            across the globe.
+                            </p>
+                        </div>
+
+                        <div class="flex mt-2 mr-4 items-center w-96">                    
+                            <button className="contactBtn flex leading-tight tracking-tight"> View
+                                <span></span>
+                            </button>  
+                        </div>  
+                    </div>
+
+                    <div id="card5" class="card h-72 items-center p-6 bg-blitcoreWebpage bg-cover rounded-large drop-shadow-2xl card5">
+                        <div class="flex mt-2 mr-4 items-center w-96">                    
+                            <h1 className="text-lg font-extrabold text-blitblue-500">Blitcore</h1>
+                        </div>  
+
+                        <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
+                            <p className="text-white text-left">
+                            We are a Consummate Custom Software Development company delivering
+                            splendid business IT Solutions and related services to customers
+                            across the globe.
+                            </p>
+                        </div>
+
+                        <div class="flex mt-2 mr-4 items-center w-96">                    
+                            <button className="contactBtn flex leading-tight tracking-tight"> View
+                                <span></span>
+                            </button>  
+                        </div>  
+                    </div>
+
+                    <div id="card6" class="card h-72 items-center p-6 bg-blitcoreWebpage bg-cover rounded-large drop-shadow-2xl card6">
+                        <div class="flex mt-2 mr-4 items-center w-96">                    
+                            <h1 className="text-lg font-extrabold text-blitblue-500">Blitcore</h1>
+                        </div>  
+
+                        <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
+                            <p className="text-white text-left">
+                            We are a Consummate Custom Software Development company delivering
+                            splendid business IT Solutions and related services to customers
+                            across the globe.
+                            </p>
+                        </div>
+
+                        <div class="flex mt-2 mr-4 items-center w-96">                    
+                            <button className="contactBtn flex leading-tight tracking-tight"> View
+                                <span></span>
+                            </button>  
+                        </div>  
+                    </div>
+
+                    <div id="card7" class="card h-72 items-center p-6 bg-blitcoreWebpage bg-cover rounded-large drop-shadow-2xl card7">
+                        <div class="flex mt-2 mr-4 items-center w-96">                    
+                            <h1 className="text-lg font-extrabold text-blitblue-500">Blitcore</h1>
+                        </div>  
+
+                        <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
+                            <p className="text-white text-left">
+                            We are a Consummate Custom Software Development company delivering
+                            splendid business IT Solutions and related services to customers
+                            across the globe.
+                            </p>
+                        </div>
+
+                        <div class="flex mt-2 mr-4 items-center w-96">                    
+                            <button className="contactBtn flex leading-tight tracking-tight"> View
+                                <span></span>
+                            </button>  
+                        </div>  
                     </div>
                 </div>
             </div>

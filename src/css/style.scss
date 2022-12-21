@@ -154,7 +154,7 @@ $aos-distance: 10px;
     position: absolute; 
     left: 0; 
     right: 0; 
-    top: 40%;
+    top: 25%;
     margin-left: auto; 
     margin-right: auto; 
     border-radius:2em;
@@ -167,7 +167,60 @@ $aos-distance: 10px;
     position: absolute; 
     left: 40%; 
     right: 0; 
-    top: 80%;
+    top: 50%;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
+    transition: all 0.2s ease-out 0.05s;
+}
+
+.card4 {
+    z-index:10;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 75%;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
+    transition: all 0.2s ease-out 0.05s;
+}
+.card5 {
+    z-index:9;
+    position: absolute; 
+    left: -40%; 
+    right: 0; 
+    top: 100%;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
+    transition: all 0.2s ease-out 0.05s;
+}
+.card6 {
+    z-index:8;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    top: 125%;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:28em;
+    max-width:28em;
+    transition: all 0.2s ease-out 0.05s;
+}
+.card7 {
+    z-index:8;
+    position: absolute; 
+    left: 40%; 
+    right: 0; 
+    top: 150%;
     margin-left: auto; 
     margin-right: auto; 
     border-radius:2em;
@@ -231,8 +284,8 @@ $aos-distance: 10px;
 
 @media (max-width: 425px) {
     .card {
-        max-width: 22em;
-        height: 100%;
+        max-width: 18em;
+        height: 24em;
     }
 }
 
@@ -242,12 +295,108 @@ $aos-distance: 10px;
     }
     .card1 {
         left: 0;
+        z-index: 10;
     }
     .card2 {
-        top: 65%;
+        top: 25%;
+        z-index: 9;
     }
     .card3 {
-        top: 130%;
+        top: 50%;
         left: 0;
+        z-index: 8;
+    }
+    .card4 {
+        top: 75%;
+        left: 0;
+        z-index: 7;
+    }
+    .card5 {
+        top: 100%;
+        left: 0;
+        z-index: 6;
+    }
+    .card6 {
+        top: 125%;
+        left: 0;
+        z-index: 5;
+    }
+    .card7 {
+        top: 150%;
+        left: 0;
+        z-index: 4;
+    }
+}
+
+
+/* Blog Post Cards */
+
+.post1 {
+    position: relative; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:20em;
+    max-width:20em;
+    transition: all 0.2s ease-out 0.05s;
+}
+
+.start.post {
+    opacity:1;
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    // border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.post a {
+    margin:0em -2em;
+    display:block;
+    width:120%;
+    max-width:24em;
+    position:relative;
+    line-height:1em;
+}
+
+.post a:after {
+    content: "";
+    position:absolute;
+    left:0;
+    right:0;
+    top:0px;
+    bottom:1px;
+    border-bottom:1px solid rgba(0,0,0,0.35);
+    border-top:1px solid rgba(0,0,0,0.15);
+}
+
+.post p {
+    line-height:1.75em;
+    margin-bottom:0;
+}
+
+.post-container:hover,
+.post-container.hover {
+    .post {
+        opacity:0.95;
+        transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        &:hover,
+        &.hover {
+            opacity:1;   
+            z-index:11;
+            transform: scale(1);
+            -webkit-transform: scale(1);
+        }
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .post {
+        max-width: 22em;
+        height: 100%;
     }
 }
