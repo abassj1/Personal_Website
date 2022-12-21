@@ -675,3 +675,65 @@ body
 .viewBtn:active span::before {
     background: #ffef16;
 }
+
+@media (max-width: 425px) {
+
+    .viewBtn {
+        border: none;
+        position: relative;
+        padding: 0.35em 1.5em;
+        font-weight: 200;
+        border-radius: 2em;
+        font-size: medium;
+    }
+
+
+    .viewBtn span {
+        border: 2px solid yellow;
+    }
+
+    .contactBtn {
+        border: none;
+        position: relative;
+        padding: 0.35em 1.5em;
+        font-weight: 200;
+        border-radius: 2em;
+        font-size: medium;
+    }
+    
+
+    .contactBtn span {
+        border: 2px solid yellow;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .viewBtn {
+        border: none;
+        position: relative;
+        padding: 0.35em 1.5em;
+        font-weight: 200;
+        border-radius: 2em;
+        font-size: medium;
+    }
+    
+
+    .viewBtn span {
+        border: 2px solid yellow;
+    }
+
+    .contactBtn {
+        border: none;
+        position: relative;
+        padding: 0.35em 1.5em;
+        font-weight: 200;
+        border-radius: 2em;
+        font-size: medium;
+    }
+    
+
+    .contactBtn span {
+        border: 2px solid yellow;
+    }
+}

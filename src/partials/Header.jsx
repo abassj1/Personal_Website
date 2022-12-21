@@ -112,21 +112,21 @@ function Header() {
               <div ref={ref} className="text-center justify-center pt-8 pb-3 space-y-4 sm:px-3">
                 <Link
                   to="/"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-lg font-medium"
+                  className="text-white hover:bg-blitblue-500 mx-auto w-1/3 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
                   Home
                 </Link>
 
                 <Link
                   to="/blog"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium"
+                  className="text-white hover:bg-blitblue-500 mx-auto w-1/3 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
                   Blog
                 </Link>
 
                 <Link
                   to="/contact"
-                  className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-lg font-medium"
+                  className="text-white hover:bg-blitblue-500 mx-auto w-1/3 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
                   Contact Me
                 </Link>

@@ -259,8 +259,8 @@ $aos-distance: 10px;
 
 @media (max-width: 425px) {
     .card {
-        max-width: 18em;
-        height: 24em;
+        max-width: 22em;
+        height: 16em;
     }
 }
 
@@ -273,34 +273,35 @@ $aos-distance: 10px;
         z-index: 10;
     }
     .card2 {
-        top: 32%;
+        top: 25%;
         z-index: 9;
     }
     .card3 {
-        top: 64%;
+        top: 50%;
         left: 0;
         z-index: 8;
     }
     .card4 {
-        top: 96%;
+        top: 75%;
         left: 0;
         z-index: 7;
     }
     .card5 {
-        top: 128%;
+        top: 100%;
         left: 0;
         z-index: 6;
     }
     .card6 {
-        top: 160%;
+        top: 125%;
         left: 0;
         z-index: 5;
     }
     .card7 {
-        top: 192%;
+        top: 150%;
         left: 0;
         z-index: 4;
     }
+
 }
 
 
@@ -348,23 +349,6 @@ $aos-distance: 10px;
 .post p {
     line-height:1.75em;
     margin-bottom:0;
-}
-
-.post-container:hover,
-.post-container.hover {
-    .post {
-        opacity:0.95;
-        transform: scale(0.95);
-        -webkit-transform: scale(0.95);
-        &:hover,
-        &.hover {
-            opacity:1;   
-            z-index:11;
-            transform: scale(1);
-            -webkit-transform: scale(1);
-        }
-    }
-    
 }
 
 @media (max-width: 425px) {
