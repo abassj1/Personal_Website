@@ -129,7 +129,7 @@ $aos-distance: 10px;
     position: absolute; 
     left: 0; 
     right: 0; 
-    top: 25%;
+    top: 32%;
     margin-left: auto; 
     margin-right: auto; 
     border-radius:2em;
@@ -142,7 +142,7 @@ $aos-distance: 10px;
     position: absolute; 
     left: 40%; 
     right: 0; 
-    top: 50%;
+    top: 64%;
     margin-left: auto; 
     margin-right: auto; 
     border-radius:2em;
@@ -156,7 +156,7 @@ $aos-distance: 10px;
     position: absolute; 
     left: 0; 
     right: 0; 
-    top: 75%;
+    top: 96%;
     margin-left: auto; 
     margin-right: auto; 
     border-radius:2em;
@@ -169,7 +169,7 @@ $aos-distance: 10px;
     position: absolute; 
     left: -40%; 
     right: 0; 
-    top: 100%;
+    top: 128%;
     margin-left: auto; 
     margin-right: auto; 
     border-radius:2em;
@@ -182,7 +182,7 @@ $aos-distance: 10px;
     position: absolute; 
     left: 0; 
     right: 0; 
-    top: 125%;
+    top: 160%;
     margin-left: auto; 
     margin-right: auto; 
     border-radius:2em;
@@ -195,7 +195,7 @@ $aos-distance: 10px;
     position: absolute; 
     left: 40%; 
     right: 0; 
-    top: 150%;
+    top: 192%;
     margin-left: auto; 
     margin-right: auto; 
     border-radius:2em;
@@ -273,31 +273,31 @@ $aos-distance: 10px;
         z-index: 10;
     }
     .card2 {
-        top: 25%;
+        top: 32%;
         z-index: 9;
     }
     .card3 {
-        top: 50%;
+        top: 64%;
         left: 0;
         z-index: 8;
     }
     .card4 {
-        top: 75%;
+        top: 96%;
         left: 0;
         z-index: 7;
     }
     .card5 {
-        top: 100%;
+        top: 128%;
         left: 0;
         z-index: 6;
     }
     .card6 {
-        top: 125%;
+        top: 160%;
         left: 0;
         z-index: 5;
     }
     .card7 {
-        top: 150%;
+        top: 192%;
         left: 0;
         z-index: 4;
     }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { Transition } from "@headlessui/react";
-import logo from "../images/bc_logo.png";
+import logo from "../images/Abass_logo.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,7 @@ function Header() {
           <div className="flex items-center justify-around h-16">
             <div className="flex-shrink-0">
               <Link to="/">
-                <div className="logo">Abass.</div>
+              <img className="flex h-6 mx-auto" src={logo} alt="Workflow" />
               </Link>
             </div>
             <div className="flex items-center mr-48">
@@ -109,7 +109,7 @@ function Header() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="text-center justify-center pt-8 pb-3 space-y-6 sm:px-3">
+              <div ref={ref} className="text-center justify-center pt-8 pb-3 space-y-4 sm:px-3">
                 <Link
                   to="/"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-lg font-medium"

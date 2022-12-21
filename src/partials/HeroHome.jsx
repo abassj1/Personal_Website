@@ -15,7 +15,7 @@ function HeroHome() {
 return (
     <section className="relative h-auto sm:h-auto md:h-auto lg:h-auto ">
 
-            <div class="container mx-auto max-w-[1000px] py-32">
+            <div class="container mx-auto max-w-[1000px] py-28">
                 <div className="flex flex-col max-w-[1000px] lg:flex-row items-center text-center">
 
                     {/* <!-- Masthead Avatar Image--> */}

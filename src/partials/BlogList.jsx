@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 function BlogList() {
 
 return (
-    <section className="relative h-auto sm:h-auto md:h-auto lg:h-auto">
+    <section className="relative h-[1700px] sm:h-auto md:h-auto lg:h-[600px]">
 
-        <div class="container flex flex-col mx-auto max-w-[1000px] h-[1000px]">
+        <div class="container flex flex-col mx-auto max-w-[1000px] h-screen">
 
             <div className="mx-auto mt-16 w-full h-64 max-w-[1000px] max-h-[100px] items-center text-center">
                 <div className="mx-auto lg:mx-4 font-bold text-4xl text-blitblue-500">Blogs/Atricles</div>
 
-                <div class="post-container mt-8 grid grid-cols-3 grid-rows-1 gap-16">
+                <div class="post-container mt-8 grid md:grid-cols-2 lg:grid-cols-3 grid-rows-1 gap-16">
 
                     <div id="post1" class="post text-center h-72 items-center p-6 rounded-large drop-shadow-2xl post1">
                         <div class="flex mx-auto mt-2 items-center w-full">                    

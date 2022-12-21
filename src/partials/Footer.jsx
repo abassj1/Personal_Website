@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'sweetalert2/dist/sweetalert2.min.css';
 
+import logo from "../images/Abass_logo.png";
 
 
 function Footer() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto mt-24 px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto mt-80 px-4 sm:px-6">
 
         {/* Top area: Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12">
@@ -17,11 +18,11 @@ function Footer() {
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" className="inline-block" aria-label="Cruip">
-                <div className="logo">Abass.</div>
+              <img className="flex h-6 mx-auto" src={logo} alt="Workflow" />
               </Link>
             </div>
-            <div className="text-sm text-gray-600">
-              <h1 className="text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">BlitCore</h1>
+            <div className="mt-4 text-sm text-gray-600">
+              <h1 className=" text-blittext-100 hover:text-blitblue-500 transition duration-150 ease-in-out">BlitCore</h1>
               <br></br>
               <Link to="terms" className="text-blittext-100 hover:text-blitblue-500 hover:underline transition duration-150 ease-in-out">Terms</Link> · <Link to="#" className="text-blittext-100 hover:text-blitblue-500 hover:underline transition duration-150 ease-in-out">Privacy Policy</Link>
             </div>
