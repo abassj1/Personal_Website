@@ -21,7 +21,7 @@ return (
                         </div>  
 
                         <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
-                            <p className="text-white text-sm lg:text-lg text-left">
+                            <p className="text-white text-sm lg:text-base text-left">
                             We are a Consummate Custom Software Development company delivering
                             splendid business IT Solutions and related services to customers
                             across the globe.
@@ -41,7 +41,7 @@ return (
                         </div>  
 
                         <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
-                            <p className="text-white text-sm lg:text-lg text-left">
+                            <p className="text-white text-sm lg:text-base text-left">
                             We are a Consummate Custom Software Development company delivering
                             splendid business IT Solutions and related services to customers
                             across the globe.
@@ -61,7 +61,7 @@ return (
                         </div>  
 
                         <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
-                            <p className="text-white text-sm lg:text-lg text-left">
+                            <p className="text-white text-sm lg:text-base text-left">
                             We are a Consummate Custom Software Development company delivering
                             splendid business IT Solutions and related services to customers
                             across the globe.
@@ -81,7 +81,7 @@ return (
                         </div>  
 
                         <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
-                            <p className="text-white text-sm lg:text-lg text-left">
+                            <p className="text-white text-sm lg:text-base text-left">
                             We are a Consummate Custom Software Development company delivering
                             splendid business IT Solutions and related services to customers
                             across the globe.
@@ -101,7 +101,7 @@ return (
                         </div>  
 
                         <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
-                            <p className="text-white text-sm lg:text-lg text-left">
+                            <p className="text-white text-sm lg:text-base text-left">
                             We are a Consummate Custom Software Development company delivering
                             splendid business IT Solutions and related services to customers
                             across the globe.
@@ -121,7 +121,7 @@ return (
                         </div>  
 
                         <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
-                            <p className="text-white text-sm lg:text-lg text-left">
+                            <p className="text-white text-sm lg:text-base text-left">
                             We are a Consummate Custom Software Development company delivering
                             splendid business IT Solutions and related services to customers
                             across the globe.
@@ -141,7 +141,7 @@ return (
                         </div>  
 
                         <div class="flex mt-2 mr-4 items-center w-3/4 h-3/5">                    
-                            <p className="text-white text-sm lg:text-lg text-left">
+                            <p className="text-white text-sm lg:text-base text-left">
                             We are a Consummate Custom Software Development company delivering
                             splendid business IT Solutions and related services to customers
                             across the globe.

@@ -312,12 +312,13 @@ $aos-distance: 10px;
     margin-left: auto; 
     margin-right: auto; 
     border-radius:2em;
-    width:20em;
-    max-width:20em;
+    width:22em;
+    max-width:22em;
     transition: all 0.2s ease-out 0.05s;
 }
 
 .post {
+    background-color: rgba(22,32,42,.5);;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);

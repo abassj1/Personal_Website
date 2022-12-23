@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import 'sweetalert2/dist/sweetalert2.min.css';
 
-import logo from "../images/Abass_logo.png";
+import logo from "../images/svg/AJ.svg";
 
 
 function Footer() {

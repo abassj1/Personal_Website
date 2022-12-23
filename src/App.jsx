@@ -12,7 +12,7 @@ import './css/style2.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
-import Blog from './pages/Blog';
+import Posts from './pages/Posts';
 import Contact from './pages/Contact';
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="blog" element={<Blog />} />
+        <Route exact path="posts" element={<Posts />} />
         <Route exact path="contact" element={<Contact />} />
       </Routes>
     </>

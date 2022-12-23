@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { Transition } from "@headlessui/react";
-import logo from "../images/Abass_logo.png";
+import logo from "../images/svg/AJ.svg";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,10 +35,10 @@ function Header() {
                   </NavLink>
 
                   <NavLink
-                    to="/blog"
-                    className={activeLink === 'blog' ? 'active navbar_links' : 'navbar_links hover:text-white'} onClick={() => onUpdateActiveLink('blog')}
+                    to="/posts"
+                    className={activeLink === 'posts' ? 'active navbar_links' : 'navbar_links hover:text-white'} onClick={() => onUpdateActiveLink('posts')}
                   >
-                    Blog
+                    Posts
                   </NavLink>
 
                   <NavLink
