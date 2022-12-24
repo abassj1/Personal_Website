@@ -31,7 +31,7 @@ body
     height: 290px;
     width: 290px;
     background: transparent;
-    border-radius: 300px;
+    border-radius: 100%;
     transition: border 1s;
     position: relative;
     border: 5px solid #ffef16;
@@ -51,7 +51,7 @@ body
     transition: background 0.8s;
     overflow: hidden;
     background: #000;
-    box-shadow: 0 70px 63px -60px #000;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
     display: flex;
     justify-content: center;
     align-items: center;

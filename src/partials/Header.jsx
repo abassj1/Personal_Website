@@ -118,10 +118,10 @@ function Header() {
                 </Link>
 
                 <Link
-                  to="/blog"
+                  to="/posts"
                   className="text-white hover:bg-blitblue-500 mx-auto w-1/3 hover:text-black block px-3 py-2 rounded-full text-lg font-medium"
                 >
-                  Blog
+                  Posts
                 </Link>
 
                 <Link
