@@ -317,8 +317,20 @@ $aos-distance: 10px;
     transition: all 0.2s ease-out 0.05s;
 }
 
+.post2 {
+    position: relative; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius:2em;
+    width:22em;
+    max-width:22em;
+    transition: all 0.2s ease-out 0.05s;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
 .post {
-    background-color: rgba(22,32,42,.5);;
+    background-color: rgba(22,32,42,.5);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -352,8 +364,47 @@ $aos-distance: 10px;
     margin-bottom:0;
 }
 
+.instaPost {
+    background-color: rgba(22,32,42,.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+
+.instaPost a {
+    margin:0em -2em;
+    display:block;
+    width:120%;
+    max-width:24em;
+    position:relative;
+    line-height:1em;
+}
+
+.instaPost a:after {
+    content: "";
+    position:absolute;
+    left:0;
+    right:0;
+    top:0px;
+    bottom:1px;
+    border-bottom:1px solid rgba(0,0,0,0.35);
+    border-top:1px solid rgba(0,0,0,0.15);
+}
+
+.instaPost p {
+    line-height:1.75em;
+    margin-bottom:0;
+}
+
 @media (max-width: 425px) {
     .post {
+        max-width: 22em;
+        height: 100%;
+    }
+    .instaPost {
         max-width: 22em;
         height: 100%;
     }
